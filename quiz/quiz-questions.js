@@ -174,8 +174,14 @@ const cssQuestions = [
   {
     question:
       "Which of these specificity will take precedence over others?",
-    answers: ["h1.red", "h1#yellow", "h1"],
+    answers: ["h1.yellow", "h1#yellow", "h1"],
     correctAnswer: "h1#yellow",
+  },
+  {
+    question:
+      "Dot (.) is to id while hash (#) is to class. This statement is?",
+    answers: ["correct", "wrong"],
+    correctAnswer: "wrong",
   },
   {
     question:
@@ -243,7 +249,6 @@ const cssQuestions = [
     correctAnswer: '5',
   }
 ];
-
 const javascriptQuestions = [
   {
     question: "Which of the following has function scope?",
